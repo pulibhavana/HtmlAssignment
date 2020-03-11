@@ -1,0 +1,40 @@
+input,button{
+    height: 20px;
+    font-size: 15px;
+}
+.allignment
+{
+    font-size: 20px;
+    background-color: aliceblue;
+    align:center;
+    padding-left: 40%;
+    padding-top: 3%;
+}
+.styling
+{
+    margin : auto;
+    background-color: cornflowerblue;
+    height:80px;
+}
+.color{
+    color: white;
+    font-size: 50px;
+    padding-left: 200px;
+}
+
+.position
+{
+    margin-left: 1000px;
+}
+.underline:hover
+{
+    text-decoration:underline;
+}
+
+.login_display{
+    display: none;
+    padding-left: 1000px;
+    padding-bottom: 50px;
+    margin-top: 2px;
+
+}
