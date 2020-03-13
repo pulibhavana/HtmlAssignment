@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>forgottenaccount</title>
+    <link rel="stylesheet" type = "text/css" href = "style.css">
+    <link rel="stylesheet" type = "text/css" href = "privacystyle.css">
+</head>
+<body>
+<div class = "styling">
+    <label class = "color">facebook</label>
+    <button style="float:right;" onclick= "this.style.visibility ='hidden';myFunction()">Log into Existing Account</button>
+    <div id="myDIV"  class = "login_display">
+        <input type = "text"  name = "fname" placeholder = "Email or Phone">
+        <input type = "password"  name = "pswd" placeholder = "Password">
+        <button>Login</button><br><br>
+        <a href = "#" class = "underline">Forgotten account</a>
+    </div>
+</div>
+
+<div class = "accountdiv">
+          <div class = "Findaccount" >
+              <h3>Find Your Account</h3>
+              <hr/>
+              <p style ="margin-left: 30px">please enter your email address or phone number to find your account.</p>
+              <input style ="margin-left: 30px" type="text" width="30px" placeholder="Phone number">
+              <hr/>
+              <div style ="height:45px;width:500px;background-color: lightgray">
+                  <button style="margin-left: 350px;margin-top: 20px;background-color: cornflowerblue;border-radius: 5px">Search</button>
+                  <button onclick = "openlogin()" style="float:right;margin-top:20px;background-color: white;border-radius: 5px">cancel</button>
+              </div>
+          </div>
+
+</div>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myDIV");
+        x.style.display = "block"
+    }
+    function openlogin() {
+        window.open("cancel.html")
+    }
+</script>
+</body>
+</html>
